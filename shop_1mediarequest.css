@@ -1,0 +1,361 @@
+
+@media (max-width:1050px) {
+    a{
+      font-size: 20px;
+    }
+   .text h1{
+    font-size: 36px;
+  }
+  .text h2{
+    font-size: 30px;
+  }
+  .container .text_slide p{
+    font-size: 23px;
+    width: 440px
+  }
+  .cap1{
+    display: none;
+  }
+  .cap{
+    height: 60vh
+  }
+  .cap_curtain {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items:center;
+    position: relative;
+}
+.btn,
+.price{
+  margin: 30px 0px 30px 30px
+}
+.btn p{
+  margin-bottom: 10px;
+}
+}
+
+
+@media(max-width:995px){
+  header nav ul{
+    width: 70%;
+  }
+  .container{
+  }
+  .container .text_slide .s{
+    order: 2;
+    margin-top: 50px;
+  }
+  .container .text_slide1{
+    order: 1
+  }
+  .container .text_slide{
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+  }
+  .lin2 span{
+    font-size: 40px;
+  }
+  .lin2 h1{
+    font-size: 40px;
+  }
+}
+@media(max-width:700px){
+  a{
+    font-size: 17px;
+  }
+  header nav ul li span{
+    font-size: 50px;
+  }
+  .cap{
+    height: 50vh
+  }
+  .nav .catalog h1,
+  .about_us_2 h1,
+  .delivery h1{
+    font-size: 26px;
+  }
+  .nav .catalog ul li,
+  .nav .politic p{
+    font-size: 18px;
+  }
+  .logo_1 p:first-child{
+    font-size: 50px;
+  }
+
+}
+@media (max-width:604px) {
+  .burger{
+    display: block;
+    z-index: 3;
+  }
+  header nav{
+    position: absolute;
+    top: 0;
+    left: -220px;
+    width: 180px;
+    background: black;
+    padding: 60px 0px 40px 40px;
+    transition: 700ms ease;
+  }
+  header nav ul{
+    display: block;
+    width: 100%;
+    margin-top: 25px;
+  }
+  header nav ul li a{
+    display: block;
+    margin: 30px 0;
+  }
+  header nav ul li span {
+    display: none;
+  }
+  .span2 span{
+    display: block;
+    font-size: 40px;
+  }
+  .header.open  nav{
+    left: 0px;
+  }
+  .icon{
+    display: none;
+  }
+  .text h1{
+    margin-top: 240px;
+  }
+  .coment{
+    width: 100%
+  }
+  .coment .coment_1{
+    margin-left: 5%
+  }
+  .nav_2{
+    display: grid;
+    gap: 30px;
+    margin: 0 12%;
+    grid-template-columns: 1fr 1fr
+  }
+  .logo_1 p:first-child{
+    margin: 0 0
+  }
+  .linear{
+    font-size: 30px;
+  }
+  .cap{
+    height: 40vh
+  }
+  .lin2 span{
+    font-size: 30px;
+    margin-top: 2%
+  }
+  .lin2 h1{
+    font-size: 30px;
+  }
+
+  .about_us div p,
+  .about_us div ol{
+    font-size: 20px;
+  }
+  .about_us div:nth-child(1) h1,
+  .about_us div:nth-child(2) h2,
+  .about_us div:nth-child(3) h3{
+    font-size: 40px;
+  }
+  .about_us div:nth-child(4) h4,
+  .about_us div:nth-child(5) h5{
+    font-size: 25px;
+  }
+  .container p{
+    font-size: 20px;
+  }
+}
+
+@media (max-width:550px){
+  .text h1{
+    font-size: 25px;
+  }
+  .text h2{
+    font-size: 23px;
+  }
+  .container .text_slide p {
+  font-size: 20px;
+  width: 80%;
+  padding-left: 9%;
+  padding-top: 20px;
+}
+.btn, .btn p,
+.btn button{
+  font-size: 20px;
+}
+.shop p,
+.shop .hh button{
+  font-size: 20px;
+}
+.lin2 span{
+  font-size: 25px;
+}
+.lin2 h1{
+  font-size: 25px;
+}
+.bullshit img,
+.phone img{
+  width: 13%;
+  height: auto;
+}
+.nav .catalog h1,
+.about_us_2 h1,
+.delivery h1{
+  font-size: 26px;
+}
+.nav .catalog ul li,
+.nav .politic p{
+  font-size: 18px;
+}
+.logo_1 p:first-child{
+  font-size: 50px;
+}
+
+}
+@media (max-width:420px){
+  .coment span{
+    padding: 15px 10px;
+    font-size: 20px;
+  }
+  .nav_2{
+    grid-template-columns: 1fr;
+  }
+  .shop .flex{
+    width: 90%;
+    height: auto;
+  }
+  .shop p,
+  .shop .hh button{
+    font-size: 12px;
+  }
+  .btn, .btn p,
+  .btn button{
+    font-size: 15px;
+  }
+  .price span{
+    font-size: 21px;
+  }
+  .btn {
+    width: 50%;
+  }
+  .linear{
+    font-size: 20px;
+  }
+  .cap{
+    height: 30vh
+  }
+  .lin2 span{
+    font-size: 20px;
+  }
+  .lin2 h1,
+  .lin2{
+    font-size: 20px;
+    word-spacing: 0px;
+  }
+  .about_us div p,
+  .about_us div ol{
+    font-size: 15px;
+  }
+  .about_us div:nth-child(1) h1,
+  .about_us div:nth-child(2) h2,
+  .about_us div:nth-child(3) h3{
+    font-size: 30px;
+  }
+  .about_us div:nth-child(4) h4,
+  .about_us div:nth-child(5) h5{
+    font-size: 20px;
+  }
+  .container p{
+    font-size: 15px;
+  }
+  .nav .catalog h1,
+  .about_us_2 h1,
+  .delivery h1{
+    font-size: 24px;
+  }
+  .nav .catalog ul li,
+  .nav .politic p{
+    font-size: 16px;
+  }
+  .logo_1 p:first-child{
+    font-size: 40px;
+  }
+}
+@media (max-width:300px){
+  .shop .flex{
+    width: 80%;
+    height: auto;
+  }
+  .shop p,
+  .shop .hh button{
+    font-size: 8px;
+  }
+  .price span{
+    font-size: 16px;
+  }
+  .btn, .btn p,
+  .btn button{
+    font-size: 13px;
+  }
+  .text h1{
+    font-size: 18px;
+  }
+  .text h2{
+    font-size: 16px;
+  }
+  .coment span{
+    font-size: 15px;
+  }
+
+  .lin2 span{
+    font-size: 15px;
+  }
+  .lin2 h1{
+    font-size: 15px;
+  }
+  .about_us div p,
+  .about_us div ol{
+    font-size: 10px;
+  }
+  .about_us div:nth-child(1) h1,
+  .about_us div:nth-child(2) h2,
+  .about_us div:nth-child(3) h3{
+    font-size: 21px;
+    margin: 5px 0
+  }
+  .about_us div:nth-child(4) h4,
+  .about_us div:nth-child(5) h5{
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  .container p{
+    font-size: 12px;
+  }
+  .nav .catalog h1,
+  .about_us_2 h1,
+  .delivery h1{
+    font-size: 21px;
+  }
+  .nav .catalog ul li,
+  .nav .politic p{
+    font-size: 12px;
+  }
+  .logo_1 p:first-child{
+    font-size: 30px;
+  }
+}
+
+
+@media (max-width: 250px) {
+.lin2 span{
+  font-size: 12px;
+}
+.lin2 h1{
+  font-size: 12px;
+}
+}
